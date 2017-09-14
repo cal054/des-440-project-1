@@ -48,7 +48,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.heading {
+  font: sigmar one regular;
+  font-size: 35pts;
+}
+.Image1 {
+  height: 100%;
 
+}
 /* Responsive images base, put your images in a wrapper
 img {
     display: block;
