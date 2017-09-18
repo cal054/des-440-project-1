@@ -63,7 +63,7 @@ textarea {
    }
 
    .live-area {
-     width: auto, 1200px;
+     width: inherit, 1200px;
      margin: 0 auto;
      /* temporary: */
      min-height: 100px;
