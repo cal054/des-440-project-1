@@ -57,13 +57,13 @@ textarea {
 
 
    .content-band {
-     width: 1600px;
+     width: auto, 1600px;
      /* temporary: */
      min-height: 100px;
    }
 
    .live-area {
-     width: 1200px;
+     width: auto, 1200px;
      margin: 0 auto;
      /* temporary: */
      min-height: 100px;
