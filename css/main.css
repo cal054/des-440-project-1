@@ -48,11 +48,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.heading {
-  font: "Sigmar One Regular";
-  font-size: 35pt;
-  color: #f792c5;
-}
+
+
+   /* Fonts from Google Fonts - more at https://fonts.google.com */
+   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+   @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+   @import url('https://fonts.googleapis.com/css?family=Montserrat:300|Permanent+Marker|Sigmar+One');
+
+
+   .content-band {
+     width: 1600px;
+     /* temporary: */
+     min-height: 100px;
+   }
+
+   .live-area {
+     width: 1200px;
+     margin: 0 auto;
+     /* temporary: */
+     min-height: 100px;
+   }
+
+   h1 {
+     font-family: "Sigmar One", sans-serif;
+     font-size: 65px;
+     text-align: left;
+     line-height: 1;
+     margin-bottom: 20px;
+     margin-top: 20px;
+   }
+
+   h2 {
+     font-family: "Montserrat", sans-serif;
+     font-size: 15px;
+     text-align: left;
+     line-height: 1.5;
+     font-weight: lighter;
+     color: #808285;
+     margin-bottom: 15px;
+   }
+
+   h3 {
+     font-family: "Sigmar One", sans-serif;
+     font-size: 25px;
+     line-height: 1;
+     margin-bottom: 15px;
+   }
+
+   h4 {
+     font-family: "Sigmar One", sans-serif;
+     font-size: 65px;
+     text-align: left;
+     line-height: 1;
+     margin-bottom: -20px;
+     margin-top: 20px;
+   }
+
+
+
+
+
 /* Responsive images base, put your images in a wrapper
 img {
     display: block;
