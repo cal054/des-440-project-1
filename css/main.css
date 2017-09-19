@@ -57,13 +57,13 @@ textarea {
 
 
    .content-band {
-     width: auto, 1600px;
+     width: auto, 1200px;
      /* temporary: */
      min-height: 100px;
    }
 
    .live-area {
-     width: inherit, 1200px;
+     width: 900px;
      margin: 0 auto;
      /* temporary: */
      min-height: 100px;
@@ -102,6 +102,12 @@ textarea {
      line-height: 1;
      margin-bottom: -20px;
      margin-top: 20px;
+   }
+
+   .pink-header {
+     background-color: #b21f4c;
+     min-height: 1400px;
+     padding-top: 10px;
    }
 
 
