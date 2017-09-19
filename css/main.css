@@ -106,9 +106,42 @@ textarea {
 
    .pink-header {
      background-color: #b21f4c;
-     min-height: 1400px;
+     min-height: 1050px;
      padding-top: 10px;
    }
+
+   .blue {
+     background-color: #174e91;
+     min-height: 525px;
+     margin-top: 50px;
+   }
+
+   .orange {
+     background-color:#d85a13;
+     min-height: 525px;
+     margin-top: 50px;
+   }
+
+   .teal {
+     background-color:#239977;
+     min-height: 525px;
+     margin-top: 50px;
+   }
+
+   .red {
+     background-color:#992222;
+     min-height: 525px;
+     margin-top: 50px;
+   }
+
+   .purple {
+     background-color:#3b1f7f;
+     min-height: 525px;
+     margin-top: 50px;
+   }
+
+
+
 
 
 
