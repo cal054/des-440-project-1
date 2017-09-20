@@ -136,6 +136,7 @@ textarea {
      background-color: #174e91;
      min-height: 525px;
      margin-top: 50px;
+     position: relative;
    }
 
    .orange {
@@ -162,10 +163,23 @@ textarea {
      margin-top: 50px;
    }
 
-   .images {
-     height: 100%;
-     width: 100%;
-     bottom: 0;
+   .lefthalf-images {
+     height: auto;
+     width: 50%;
+     bottom: 0px;
+     position: absolute;
+    display: block;
+    float: left;
+   }
+
+   .righthalf-images {
+     height: auto;
+     width: 50%;
+     bottom: 0px;
+     position: absolute;
+     display: block;
+     float: left;
+    margin-left: 50%;
    }
 
 
