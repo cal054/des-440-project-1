@@ -168,6 +168,13 @@ textarea {
      position: relative;
    }
 
+   .pink {
+     background-color:#b21f4c;
+     min-height: 525px;
+     margin-top: 50px;
+     position: relative;
+   }
+
    .headerimages {
      height: auto;
      width: 100%;
@@ -214,6 +221,25 @@ textarea {
      display: block;
      float: left;
     margin-left: 50%;
+   }
+
+   .left1fourth-images {
+     height: auto;
+     width: 25%;
+     bottom: 0px;
+     position: absolute;
+    display: block;
+    float: left;
+   }
+
+   .right3fourths-images {
+     height: auto;
+     width: 75%;
+     bottom: 0px;
+     position: absolute;
+     display: block;
+     float: left;
+    margin-left: 25%;
    }
 
 
