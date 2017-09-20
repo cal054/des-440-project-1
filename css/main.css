@@ -126,14 +126,6 @@ textarea {
      font-weight: 100;
    }
 
-   h6 {
-     font-family: "Sigmar One", sans-serif;
-     font-size: 25px;
-     line-height: 1;
-     color:#877fdd;
-     text-align: center;
-     font-weight: 100;
-   }
 
    .pink-header {
      background-color: #b21f4c;
@@ -261,12 +253,11 @@ textarea {
     margin-left: 25%;
    }
 
-   .purple-footer {
-     background-color: #3b1f7f;
-     max-height: 75px;
-     padding-bottom: 10px;
-     bottom: 0;
-   }
+.verticalline {
+  border-left: solid #57a1ea;
+  border-width: 10px;
+  heihgt: 50%;
+}
 
 
 
