@@ -67,25 +67,31 @@ textarea {
      margin: 0 auto;
      /* temporary: */
      min-height: 100px;
+     position: center;
    }
+
 
    h1 {
      font-family: "Sigmar One", sans-serif;
-     font-size: 65px;
+     font-size: 55px;
      text-align: left;
      line-height: 1;
      margin-bottom: 20px;
      margin-top: 20px;
+     width: 80%;
+     float: left;
    }
 
    h2 {
      font-family: "Montserrat", sans-serif;
-     font-size: 15px;
+     font-size: 18px;
      text-align: left;
      line-height: 1.5;
      font-weight: lighter;
      color: #808285;
      margin-bottom: 15px;
+     width: 60%;
+     margin-left: 20%;
    }
 
    h3 {
@@ -93,15 +99,31 @@ textarea {
      font-size: 25px;
      line-height: 1;
      margin-bottom: 15px;
+    font-weight: 100;
+    width: 60%;
+    margin-left: 20%;
    }
+
 
    h4 {
      font-family: "Sigmar One", sans-serif;
-     font-size: 65px;
+     font-size: 55px;
      text-align: left;
      line-height: 1;
      margin-bottom: -20px;
      margin-top: 20px;
+     width:20%;
+     float: left;
+   }
+
+   h5 {
+     font-family: "Sigmar One", sans-serif;
+     font-size: 25px;
+     line-height: 1;
+     margin-bottom: 15px;
+     color:#f792c5;
+     text-align: center;
+     font-weight: 100;
    }
 
    .pink-header {
