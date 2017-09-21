@@ -100,7 +100,7 @@ textarea {
      position: absolute;
      /*height: 100%;*/
      width: 10px;
-     background-color: #fca886>;
+     background-color: #fca886;
      top: 5em;
      bottom: 0;
      left: 14%;
@@ -112,7 +112,7 @@ textarea {
      position: absolute;
      /*height: 100%;*/
      width: 10px;
-     background-color: #71d1b3>;
+     background-color: #71d1b3;
      top: 5em;
      bottom: 0;
      left: 14%;
@@ -124,7 +124,7 @@ textarea {
      position: absolute;
      /*height: 100%;*/
      width: 10px;
-     background-color: #ff8080>;
+     background-color: #ff8080;
      top: 5em;
      bottom: 0;
      left: 14%;
@@ -136,11 +136,13 @@ textarea {
      position: absolute;
      /*height: 100%;*/
      width: 10px;
-     background-color: #877fdd>;
+     background-color: #877fdd;
      top: 5em;
      bottom: 0;
      left: 14%;
    }
+
+
 
    h1 {
      font-family: "Sigmar One", sans-serif;
