@@ -69,18 +69,18 @@ textarea {
      min-height: 100px;
      position: relative;
    }
-   .live-area.blue::after {
+
+   .live-area.pink::after {
      content: '';
      display: block;
      position: absolute;
      /*height: 100%;*/
      width: 10px;
-     background-color: red;
+     background-color: #b21f4c;
      top: 5em;
      bottom: 0;
      left: 15.5%;
    }
-
 
    h1 {
      font-family: "Sigmar One", sans-serif;
@@ -195,7 +195,7 @@ textarea {
      position: absolute;
     display: block;
     float: left;
-    margin-top: -10%;
+    margin-top: -8%;
     margin-left: 3%;
    }
 
