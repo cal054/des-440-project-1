@@ -70,16 +70,76 @@ textarea {
      position: relative;
    }
 
-   .live-area.pink::after {
+   .live-area.pinkz::after {
      content: '';
      display: block;
      position: absolute;
      /*height: 100%;*/
      width: 10px;
-     background-color: #b21f4c;
+     background-color: #f792c5;
      top: 5em;
      bottom: 0;
-     left: 15.5%;
+     left: 14%;
+   }
+
+   .live-area.bluez::after {
+     content: '';
+     display: block;
+     position: absolute;
+     /*height: 100%;*/
+     width: 10px;
+     background-color: #57a1ea;
+     top: 5em;
+     bottom: 0;
+     left: 14%;
+   }
+
+   .live-area.orangez::after {
+     content: '';
+     display: block;
+     position: absolute;
+     /*height: 100%;*/
+     width: 10px;
+     background-color: #fca886>;
+     top: 5em;
+     bottom: 0;
+     left: 14%;
+   }
+
+   .live-area.tealz::after {
+     content: '';
+     display: block;
+     position: absolute;
+     /*height: 100%;*/
+     width: 10px;
+     background-color: #71d1b3>;
+     top: 5em;
+     bottom: 0;
+     left: 14%;
+   }
+
+   .live-area.redz::after {
+     content: '';
+     display: block;
+     position: absolute;
+     /*height: 100%;*/
+     width: 10px;
+     background-color: #ff8080>;
+     top: 5em;
+     bottom: 0;
+     left: 14%;
+   }
+
+   .live-area.purplez::after {
+     content: '';
+     display: block;
+     position: absolute;
+     /*height: 100%;*/
+     width: 10px;
+     background-color: #877fdd>;
+     top: 5em;
+     bottom: 0;
+     left: 14%;
    }
 
    h1 {
