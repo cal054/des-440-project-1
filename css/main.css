@@ -201,7 +201,6 @@ textarea {
      font-weight: 100;
    }
 
-
    .pink-header {
      background-color: #b21f4c;
      min-height: 1050px;
@@ -326,12 +325,6 @@ textarea {
      float: left;
     margin-left: 25%;
    }
-
-.verticalline {
-   border-left: solid #57a1ea;
-   border-width: 10px;
-}
-
 
 
 
