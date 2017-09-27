@@ -51,9 +51,9 @@ textarea {
 
 
    /* Fonts from Google Fonts - more at https://fonts.google.com */
-   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-   @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
-   @import url('https://fonts.googleapis.com/css?family=Montserrat:300|Permanent+Marker|Sigmar+One');
+   @import url ('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+   @import url ('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+   @import url ('https://fonts.googleapis.com/css?family=Montserrat:300|Permanent+Marker|Sigmar+One');
 
 
    .content-band {
@@ -69,6 +69,8 @@ textarea {
      min-height: 100px;
      position: relative;
    }
+
+
 
    .live-area.pinkz::after {
      content: '';
@@ -142,8 +144,6 @@ textarea {
      left: 14%;
    }
 
-
-
    h1 {
      font-family: "Sigmar One", sans-serif;
      font-size: 55px;
@@ -206,6 +206,12 @@ textarea {
      min-height: 1050px;
      padding-top: 10px;
      position: relative;
+   }
+
+   @media only screen and (max-width: 400px) {
+     .pink-header{
+       min-height: 525px;
+     }
    }
 
    .blue {
