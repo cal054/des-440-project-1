@@ -1,3 +1,4 @@
+@import url ('https://fonts.googleapis.com/css?family=Montserrat:300|Permanent+Marker|Sigmar+One');
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 /*This is some further normalization and base styles. */
 html {
@@ -52,8 +53,7 @@ textarea {
 
    /* Fonts from Google Fonts - more at https://fonts.google.com */
    @import url ('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-   @import url ('https://fonts.googleapis.com/css?family=Merriweather:400,700');
-   @import url ('https://fonts.googleapis.com/css?family=Montserrat:300|Permanent+Marker|Sigmar+One');
+   @import url ('https://fonts.googleapis.com/css?family=Merriweather:400,700')
 
 
    .content-band {
@@ -83,6 +83,11 @@ textarea {
      bottom: 0;
      left: 14%;
    }
+   @media only screen and (max-width: 400px) {
+     .live-area.pinkz::after{
+       display: none;
+     }
+   }
 
    .live-area.bluez::after {
      content: '';
@@ -94,6 +99,11 @@ textarea {
      top: 5em;
      bottom: 0;
      left: 14%;
+   }
+   @media only screen and (max-width: 400px) {
+     .live-area.bluez::after{
+       display: none;
+     }
    }
 
    .live-area.orangez::after {
@@ -107,6 +117,11 @@ textarea {
      bottom: 0;
      left: 14%;
    }
+   @media only screen and (max-width: 400px) {
+     .live-area.orangez::after{
+       display: none;
+     }
+   }
 
    .live-area.tealz::after {
      content: '';
@@ -118,6 +133,11 @@ textarea {
      top: 5em;
      bottom: 0;
      left: 14%;
+   }
+   @media only screen and (max-width: 400px) {
+     .live-area.tealz::after{
+       display: none;
+     }
    }
 
    .live-area.redz::after {
@@ -131,6 +151,11 @@ textarea {
      bottom: 0;
      left: 14%;
    }
+   @media only screen and (max-width: 400px) {
+     .live-area.redz::after{
+       display: none;
+     }
+   }
 
    .live-area.purplez::after {
      content: '';
@@ -143,6 +168,11 @@ textarea {
      bottom: 0;
      left: 14%;
    }
+   @media only screen and (max-width: 400px) {
+     .live-area.purplez::after{
+       display: none;
+     }
+   }
 
    h1 {
      font-family: "Sigmar One", sans-serif;
@@ -154,6 +184,21 @@ textarea {
      width: 80%;
      float: left;
    }
+   @media only screen and (max-width: 400px) {
+     h1{
+       float: left;
+       width: auto;
+       font-size: 25px;
+       margin-bottom: 20px;
+       margin-top:40px;
+       position: absolute;
+       width: 33%;
+       text-align: left;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-bottom: 10px;
+     }
+   }
 
    h2 {
      font-family: "Montserrat", sans-serif;
@@ -163,8 +208,16 @@ textarea {
      font-weight: lighter;
      color: #808285;
      margin-bottom: 15px;
-     width: 60%;
-     margin-left: 20%;
+     width: 33%;
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+   @media only screen and (max-width: 400px) {
+     h2{
+       font-size: 12px;
+       float: center;
+       margin-top: 20px;
+     }
    }
 
    h3 {
@@ -175,6 +228,11 @@ textarea {
     font-weight: 100;
     width: 60%;
     margin-left: 20%;
+   }
+   @media only screen and (max-width: 400px) {
+     h3{
+
+     }
    }
 
 
@@ -189,6 +247,18 @@ textarea {
      float: left;
      position: relative;
    }
+   @media only screen and (max-width: 400px) {
+     h4{
+       text-align: center;
+       float: left;
+       width: auto;
+       font-size: 30px;
+       margin-bottom: 0px;
+       margin-top:0px;
+       position: absolute;
+       width: 33%;
+     }
+   }
 
 
    h5 {
@@ -200,6 +270,18 @@ textarea {
      text-align: center;
      font-weight: 100;
    }
+   @media only screen and (max-width: 400px) {
+     h5{
+       font-size: 15px;
+       margin-bottom: 8px;
+       float: left;
+       width: auto;
+       margin-bottom: 40px;
+       margin-top:30px;
+       position: absolute;
+       width: 33%;
+     }
+   }
 
    .pink-header {
      background-color: #b21f4c;
@@ -207,12 +289,12 @@ textarea {
      padding-top: 10px;
      position: relative;
    }
-
    @media only screen and (max-width: 400px) {
      .pink-header{
-       min-height: 525px;
+       min-height: 400px;
      }
    }
+
 
    .blue {
      background-color: #174e91;
@@ -221,11 +303,22 @@ textarea {
      position: relative;
    }
 
+   @media only screen and (max-width: 400px) {
+     .blue{
+       min-height: 215px;
+     }
+   }
+
    .orange {
      background-color:#d85a13;
      min-height: 525px;
      margin-top: 50px;
      position: relative;
+   }
+   @media only screen and (max-width: 400px) {
+     .orange{
+       min-height: 215px;
+     }
    }
 
    .teal {
@@ -234,12 +327,22 @@ textarea {
      margin-top: 50px;
      position: relative;
    }
+   @media only screen and (max-width: 400px) {
+     .teal{
+       min-height: 215px;
+     }
+   }
 
    .red {
      background-color:#992222;
      min-height: 525px;
      margin-top: 50px;
      position: relative;
+   }
+   @media only screen and (max-width: 400px) {
+     .red{
+       min-height: 215px;
+     }
    }
 
    .purple {
@@ -248,12 +351,22 @@ textarea {
      margin-top: 50px;
      position: relative;
    }
+   @media only screen and (max-width: 400px) {
+     .purple{
+       min-height: 215px;
+     }
+   }
 
    .pink {
      background-color:#b21f4c;
      min-height: 525px;
      margin-top: 50px;
      position: relative;
+   }
+   @media only screen and (max-width: 400px) {
+     .pink{
+       min-height: 215px;
+     }
    }
 
    .headerimages-2 {
@@ -265,6 +378,15 @@ textarea {
     margin-top: -8%;
     margin-left: 3%;
    }
+   @media only screen and (max-width: 400px) {
+     .headerimages-2{
+       width: 150%;
+       float: center;
+       margin-top: -10%;
+       margin-left: -20%;
+     }
+   }
+
 
    .headerimages {
      height: auto;
@@ -273,6 +395,10 @@ textarea {
      position: absolute;
     display: block;
     float: left;
+   }
+   @media only screen and (max-width: 400px) {
+     .headerimages{
+     }
    }
 
    .fullimages {
@@ -283,6 +409,10 @@ textarea {
     display: block;
     float: left;
    }
+   @media only screen and (max-width: 400px) {
+     .fullimages{
+     }
+   }
 
    .lefthalf-images {
      height: auto;
@@ -291,6 +421,10 @@ textarea {
      position: absolute;
     display: block;
     float: left;
+   }
+   @media only screen and (max-width: 400px) {
+     .lefthalf-images{
+     }
    }
 
    .righthalf-images {
@@ -302,6 +436,10 @@ textarea {
      float: left;
     margin-left: 50%;
    }
+   @media only screen and (max-width: 400px) {
+     .righthalf-images{
+     }
+   }
 
    .righthalf-images-2 {
      height: auto;
@@ -312,6 +450,10 @@ textarea {
      float: left;
     margin-left: 50%;
    }
+   @media only screen and (max-width: 400px) {
+     .righthalf-images-2{
+     }
+   }
 
    .left1fourth-images {
      height: auto;
@@ -320,6 +462,10 @@ textarea {
      position: absolute;
     display: block;
     float: left;
+   }
+   @media only screen and (max-width: 400px) {
+     .left1fourth-images{
+     }
    }
 
    .right3fourth-images {
@@ -330,6 +476,10 @@ textarea {
      display: block;
      float: left;
     margin-left: 25%;
+   }
+   @media only screen and (max-width: 400px) {
+     .right3fourth-images{
+     }
    }
 
 
