@@ -62,6 +62,10 @@ textarea {
      min-height: 100px;
    }
 
+   .body {
+     overflow-x: hidden;
+   }
+
    .live-area {
      width: 900px;
      margin: 0 auto;
@@ -69,6 +73,8 @@ textarea {
      min-height: 100px;
      position: relative;
    }
+
+
 
 
 
@@ -83,9 +89,10 @@ textarea {
      bottom: 0;
      left: 14%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .live-area.pinkz::after{
        display: none;
+       position: none;
      }
    }
 
@@ -100,7 +107,7 @@ textarea {
      bottom: 0;
      left: 14%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .live-area.bluez::after{
        display: none;
      }
@@ -117,7 +124,7 @@ textarea {
      bottom: 0;
      left: 14%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .live-area.orangez::after{
        display: none;
      }
@@ -134,7 +141,7 @@ textarea {
      bottom: 0;
      left: 14%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .live-area.tealz::after{
        display: none;
      }
@@ -151,7 +158,7 @@ textarea {
      bottom: 0;
      left: 14%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .live-area.redz::after{
        display: none;
      }
@@ -168,9 +175,10 @@ textarea {
      bottom: 0;
      left: 14%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .live-area.purplez::after{
        display: none;
+
      }
    }
 
@@ -179,24 +187,20 @@ textarea {
      font-size: 55px;
      text-align: left;
      line-height: 1;
-     margin-bottom: 20px;
      margin-top: 20px;
      width: 80%;
      float: left;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      h1{
-       float: left;
        width: auto;
        font-size: 25px;
-       margin-bottom: 20px;
        margin-top:40px;
-       position: absolute;
        width: 33%;
        text-align: left;
        padding-left: 20px;
        padding-right: 20px;
-       padding-bottom: 10px;
+       padding-bottom: 0px;
      }
    }
 
@@ -208,18 +212,58 @@ textarea {
      font-weight: lighter;
      color: #808285;
      margin-bottom: 15px;
-     width: 33%;
+     width: 60%;
+     margin-left: 20%;
      padding-left: 20px;
      padding-right: 20px;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      h2{
        font-size: 12px;
-       float: center;
-       margin-top: 20px;
+      width: 33%;
+      margin-left: 0;
      }
    }
 
+   .h2-top {
+     font-family: "Montserrat", sans-serif;
+     font-size: 18px;
+     text-align: left;
+     line-height: 1.5;
+     font-weight: lighter;
+     color: #808285;
+     margin-bottom: 15px;
+     width: 60%;
+     margin-left: 20%;
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+   @media only screen and (max-width: 767px) {
+     .h2-top{
+       font-size: 12px;
+      width: 33%;
+      margin-left: 0;
+      padding-top: 0em;
+     }
+   }
+
+  .h2-bottom {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: lighter;
+    color: #808285;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+   }
+   @media only screen and (max-width: 767px) {
+     .h2-bottom{
+       font-size: 12px;
+       padding-top: 0px;
+     }
+   }
    h3 {
      font-family: "Sigmar One", sans-serif;
      font-size: 25px;
@@ -227,11 +271,17 @@ textarea {
      margin-bottom: 15px;
     font-weight: 100;
     width: 60%;
+    text-align: left;
     margin-left: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      h3{
-
+       margin-left: 0px;
+       font-size: 20px;
+       margin-right: 20px;
+       width: 33%;
      }
    }
 
@@ -247,10 +297,9 @@ textarea {
      float: left;
      position: relative;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      h4{
        text-align: center;
-       float: left;
        width: auto;
        font-size: 30px;
        margin-bottom: 0px;
@@ -270,11 +319,10 @@ textarea {
      text-align: center;
      font-weight: 100;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      h5{
        font-size: 15px;
        margin-bottom: 8px;
-       float: left;
        width: auto;
        margin-bottom: 40px;
        margin-top:30px;
@@ -289,7 +337,7 @@ textarea {
      padding-top: 10px;
      position: relative;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .pink-header{
        min-height: 400px;
      }
@@ -303,9 +351,9 @@ textarea {
      position: relative;
    }
 
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .blue{
-       min-height: 215px;
+       min-height: 150px;
      }
    }
 
@@ -315,9 +363,9 @@ textarea {
      margin-top: 50px;
      position: relative;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .orange{
-       min-height: 215px;
+       min-height: 150px;
      }
    }
 
@@ -327,9 +375,9 @@ textarea {
      margin-top: 50px;
      position: relative;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .teal{
-       min-height: 215px;
+       min-height: 150px;
      }
    }
 
@@ -339,9 +387,9 @@ textarea {
      margin-top: 50px;
      position: relative;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .red{
-       min-height: 215px;
+       min-height: 150px;
      }
    }
 
@@ -351,9 +399,9 @@ textarea {
      margin-top: 50px;
      position: relative;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .purple{
-       min-height: 215px;
+       min-height: 150px;
      }
    }
 
@@ -363,9 +411,9 @@ textarea {
      margin-top: 50px;
      position: relative;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .pink{
-       min-height: 215px;
+       min-height: 150px;
      }
    }
 
@@ -378,12 +426,12 @@ textarea {
     margin-top: -8%;
     margin-left: 3%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .headerimages-2{
        width: 150%;
-       float: center;
        margin-top: -10%;
        margin-left: -20%;
+       padding: inherit;
      }
    }
 
@@ -396,8 +444,9 @@ textarea {
     display: block;
     float: left;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .headerimages{
+       padding: inherit;
      }
    }
 
@@ -409,8 +458,9 @@ textarea {
     display: block;
     float: left;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .fullimages{
+       padding: inherit;
      }
    }
 
@@ -422,8 +472,9 @@ textarea {
     display: block;
     float: left;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .lefthalf-images{
+       padding: inherit;
      }
    }
 
@@ -436,8 +487,9 @@ textarea {
      float: left;
     margin-left: 50%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .righthalf-images{
+       padding: inherit;
      }
    }
 
@@ -450,8 +502,9 @@ textarea {
      float: left;
     margin-left: 50%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .righthalf-images-2{
+       padding: inherit;
      }
    }
 
@@ -463,8 +516,9 @@ textarea {
     display: block;
     float: left;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .left1fourth-images{
+       padding: inherit;
      }
    }
 
@@ -477,8 +531,9 @@ textarea {
      float: left;
     margin-left: 25%;
    }
-   @media only screen and (max-width: 400px) {
+   @media only screen and (max-width: 767px) {
      .right3fourth-images{
+       padding: inherit;
      }
    }
 
