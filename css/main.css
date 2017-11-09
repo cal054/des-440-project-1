@@ -425,7 +425,7 @@ textarea {
      width: 100%;
      position: absolute;
     display: block;
-    float: center;
+    float: left;
     margin-top: -8%;
     margin-left: 3%;
    }
